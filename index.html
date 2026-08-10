@@ -1,41 +1,165 @@
+<!DOCTYPE html>
 
-Desenvolva uma página web estática sobre o tema **“Empatia e Cooperação”**, utilizando exclusivamente **HTML5 e CSS3**.
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-Não utilize JavaScript, frameworks, bibliotecas externas ou qualquer outro recurso além de HTML e CSS.
+```
+<!-- Título exibido na aba do navegador -->
+<title>Conexões que Transformam | Empatia e Cooperação</title>
 
-Antes de gerar os códigos, apresente um **wireframe (esquema ilustrado)** da página, mostrando de forma visual e organizada a disposição dos principais elementos.
+<!-- Arquivo responsável pela aparência da página -->
+<link rel="stylesheet" href="style.css">
+```
 
-O projeto deverá obrigatoriamente utilizar as seguintes tags HTML:
+</head>ju
 
-* `<head>`
-* `<body>`
-* `<h1>`
-* `<p>`
-* `<div>`
-* `<ul>`
-* `<li>`
-* `<a>`
+<body>
 
-Após apresentar o wireframe, gere os dois arquivos do projeto:
+```
+<!-- Cabeçalho principal -->
+<div class="cabecalho">
+    <div class="conteudo-cabecalho">
+        <p class="etiqueta">PEQUENAS ATITUDES, GRANDES MUDANÇAS</p>
 
-1. `index.html`
-2. `style.css`
+        <h1>Conexões que Transformam</h1>
 
-Os arquivos devem estar devidamente organizados, indentados e comentados.
+        <p class="subtitulo">
+            Empatia e cooperação para construir relações mais humanas.
+        </p>
 
-A página deve conter:
+        <!-- Links de navegação -->
+        <div class="navegacao">
+            <a href="#empatia">Empatia</a>
+            <a href="#cooperacao">Cooperação</a>
+            <a href="#atitudes">Atitudes</a>
+        </div>
+    </div>
+</div>
 
-* um título principal relacionado à empatia e cooperação;
-* uma introdução explicando a importância da empatia;
-* uma seção sobre cooperação;
-* exemplos de atitudes empáticas no cotidiano;
-* uma lista utilizando `<ul>` e `<li>`;
-* links utilizando `<a>`;
-* diferentes seções organizadas por meio de `<div>`;
-* uma identidade visual agradável e coerente com o tema.
+<!-- Conteúdo principal -->
+<div class="principal">
 
-Além dos requisitos básicos, personalize o projeto para que ele seja diferente de outros trabalhos da turma. Utilize uma combinação própria de cores, textos originais, organização diferenciada das seções e elementos visuais relacionados ao tema.
+    <!-- Introdução -->
+    <div class="introducao">
+        <p class="numero">01</p>
 
-Utilize comentários no código para explicar as principais partes do HTML e do CSS.
+        <div>
+            <h2>Quando compreender também é cuidar</h2>
 
-Ao final, apresente separadamente o conteúdo completo de `index.html` e `style.css`.
+            <p>
+                Empatia é a capacidade de tentar compreender os sentimentos,
+                pensamentos e experiências de outra pessoa. Ela nos ajuda a
+                olhar além das nossas próprias perspectivas e perceber que
+                cada indivíduo possui uma história diferente.
+            </p>
+
+            <p>
+                Cooperar é transformar essa compreensão em atitude. Quando
+                trabalhamos juntos, compartilhamos conhecimentos, dividimos
+                responsabilidades e encontramos soluções que podem beneficiar
+                a todos.
+            </p>
+        </div>
+    </div>
+
+    <!-- Seção sobre empatia -->
+    <div class="cartao" id="empatia">
+        <p class="numero">02</p>
+
+        <h2>Empatia na prática</h2>
+
+        <p>
+            Ser empático não significa concordar com tudo. Significa
+            ouvir com atenção, respeitar diferenças e tentar compreender
+            o ponto de vista de alguém antes de julgá-lo.
+        </p>
+
+        <ul>
+            <li>Ouvir uma pessoa sem interrompê-la.</li>
+            <li>Respeitar opiniões diferentes das nossas.</li>
+            <li>Oferecer ajuda quando alguém estiver com dificuldades.</li>
+            <li>Evitar julgamentos precipitados.</li>
+            <li>Reconhecer quando nossas palavras podem machucar.</li>
+            <li>Demonstrar interesse genuíno pelas pessoas.</li>
+        </ul>
+    </div>
+
+    <!-- Seção sobre cooperação -->
+    <div class="cartao destaque" id="cooperacao">
+        <p class="numero">03</p>
+
+        <h2>Cooperar é somar forças</h2>
+
+        <p>
+            A cooperação acontece quando pessoas unem seus conhecimentos,
+            habilidades e esforços para alcançar um objetivo comum.
+            Na escola, no trabalho, na família ou na comunidade, cooperar
+            pode tornar os desafios mais fáceis de enfrentar.
+        </p>
+
+        <div class="exemplos">
+
+            <div class="exemplo">
+                <span>01</span>
+                <h3>Na escola</h3>
+                <p>
+                    Compartilhar conhecimentos e ajudar colegas durante
+                    atividades e trabalhos em grupo.
+                </p>
+            </div>
+
+            <div class="exemplo">
+                <span>02</span>
+                <h3>Na comunidade</h3>
+                <p>
+                    Participar de ações coletivas para melhorar o espaço
+                    onde vivemos.
+                </p>
+            </div>
+
+            <div class="exemplo">
+                <span>03</span>
+                <h3>No cotidiano</h3>
+                <p>
+                    Dividir tarefas e responsabilidades para tornar a
+                    convivência mais equilibrada.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Seção de reflexão -->
+    <div class="reflexao" id="atitudes">
+        <p class="numero">04</p>
+
+        <h2>Uma escolha diária</h2>
+
+        <p>
+            Empatia e cooperação não precisam começar com grandes ações.
+            Um gesto de atenção, uma palavra gentil ou uma ajuda oferecida
+            no momento certo já pode fazer diferença na vida de alguém.
+        </p>
+
+        <p class="frase">
+            “Entender o outro abre espaço para construir algo juntos.”
+        </p>
+    </div>
+
+</div>
+
+<!-- Rodapé -->
+<div class="rodape">
+    <p>Conexões que Transformam • Empatia + Cooperação</p>
+
+    <div class="links">
+        <a href="#empatia">Voltar para Empatia</a>
+        <a href="#cooperacao">Conhecer a Cooperação</a>
+    </div>
+</div>
+```
+
+</body>
+</html>
